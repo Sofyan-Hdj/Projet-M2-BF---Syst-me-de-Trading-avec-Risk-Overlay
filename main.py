@@ -152,6 +152,11 @@ def main():
     # Export
     exporter = Exporter(output_dir="results")
 
+    # Nettoyage des anciens résultats AVANT d'exporter les nouveaux
+    print("\n→ Nettoyage des anciens résultats...")
+    exporter.cleanup_old_results(keep_last_n=1)
+
+    # Export des nouveaux résultats
     exporter.export_backtest_results(backtest_df)
     exporter.export_metrics(metrics_df)
     exporter.export_feature_importance(importance_df)

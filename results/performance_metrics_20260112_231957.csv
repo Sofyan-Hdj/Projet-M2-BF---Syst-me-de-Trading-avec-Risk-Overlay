@@ -1,0 +1,3 @@
+Stratégie,Rendement total,Rendement annualisé,Volatilité annualisée,Sharpe ratio,Sortino ratio,Calmar ratio,Max drawdown,Win rate
+Buy & Hold SPY,176.07%,21.50%,20.07%,0.97,1.22,0.88,-24.50%,55.39%
+Buy & Hold + RF Overlay (net),42.18%,6.45%,6.31%,0.99,1.25,0.77,-8.32%,55.32%
